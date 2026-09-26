@@ -1,6 +1,6 @@
 Sliver supports the loading and execution of BOFs and COFFs, generally no code changes are needed to use BOFs with a Sliver implant. However, you may need to define a manifest file so that Sliver is aware of BOF arguments and their types.
 
-For platform formats, supported architectures, and basic C examples for Windows, macOS, and Linux, see [Cross-platform BOFs](/docs?name=cross-platform-bofs).
+For platform formats, supported architectures, and basic C examples for Windows, macOS, and Linux, see [Cross-platform BOFs](/docs?name=Cross-platform+BOFs).
 
 ### BOF Extensions
 

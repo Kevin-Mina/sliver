@@ -65,7 +65,7 @@ From an end-user perspective there's not much of a difference between the two, e
 
 An alias is essentially just a thin wrapper around the existing `sideload` and `execute-assembly` commands, and aliases cannot have dependencies.
 
-An extension can be a native shared library or a BOF. Shared libraries are reflectively loaded into the Sliver implant process and must implement the Sliver extension API to return output. BOFs use Beacon callbacks and can execute through the built-in Reflektor executor. The COFF Loader DLL remains available as a dependency for legacy Windows BOF execution. For supported platforms and basic examples, see [Cross-platform BOFs](/docs?name=cross-platform-bofs).
+An extension can be a native shared library or a BOF. Shared libraries are reflectively loaded into the Sliver implant process and must implement the Sliver extension API to return output. BOFs use Beacon callbacks and can execute through the built-in Reflektor executor. The COFF Loader DLL remains available as a dependency for legacy Windows BOF execution. For supported platforms and basic examples, see [Cross-platform BOFs](/docs?name=Cross-platform+BOFs).
 
 ## Aliases
 
